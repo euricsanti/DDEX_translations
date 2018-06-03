@@ -1,0 +1,39 @@
+Menu 
+1. Intercambios 
+2. Tareas 
+3. Soporte 
+
+#Section-1
+DDEX, 
+El portal de intercambios descentralizado 
+más amigable para tokens basados en Ethereum. 
+
+#Section-2
+**Title** Seguro como un banco Suizo
+Crear encima de los contratos inteligentes de Ethereum y el 
+protocolo 0x, DDEX permite a los usuarios hacer intercambios de 
+los tokens ERC-20 de cartera a cartera. No hay robo posible, no 
+hay incertidumbre entre los períodos de deposito/retiro 
+
+#Section-3 
+**Title** Liquidez para proveedores de tokens ERC-20 
+Los intercambiadores descentralizados tienen una mala reputación 
+por ser lentos. Nuestra tecnología híbrida hace a DDEX rápido 
+como cualquier intercambio centralizado. DDEX lista tokens populares
+que puedes intercambiar directamente desde tu cartera digital. 
+
+#Section-3
+**Title** Sin subscripción y anónimo. 
+DDEX es una DApp que trabaja con la popular "Cartera Hábil en Explorador", tales 
+como MetaMask y Brave. No se necesita registro adicional, puedes 
+iniciar a hacer intercambios de inmediato. 
+
+#Section-4 
+**Title** Contactanos. 
+
+#Footer-1
+1. API 
+2. Enlistar Token 
+
+#Footer-2 
+Todos los Derechos Reservados, DDEX, 2018 © 

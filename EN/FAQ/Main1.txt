@@ -1,0 +1,14 @@
+FAQ
+Commonly requested information. Fees, WETH, Enabling, and more.
+
+#Learn About DDEX
+ ##What is DDEX?
+ ##Fees
+ ##Token Listing Guidelines
+ ##Wrapping/Enabling Troubleshooting
+#How to Get New Tokens listed on DDEX?
+#Limit Orders: Price Improvement
+#Learn About ETH & ERC-20 Token
+#Understanding Ethereum
+#Understanding ERC-20
+#Understanding W-ETH

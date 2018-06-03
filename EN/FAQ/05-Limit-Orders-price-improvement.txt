@@ -1,0 +1,31 @@
+Overview
+In a limit order system, ideally we would like to give DDEX users the best possible price when they place their orders. This would have limit orders match against existing order book orders at the price of the order on the book, not at the price of the taker order. However, the current decentralized order schema based on 0x protocol is not able to do this (this is an issue all 0x relayers currently face).
+
+Matching System Problem Specifics  
+DDEX currently uses the "matching" mode of the 0x protocol to settle trades (https://www.0xproject.com/wiki#Matching). In this model, the relayer matches both the maker and taker orders to complete a trade. This works perfectly if both the maker and taker specify the same price. However, if different prices are selected by the maker and taker which still results in a trade, a price differential issue can occur. Since the price of every order is signed by the maker and taker once they submit to the order book, the relayer cannot change the exchange rate afterwards, even if a better trade is found!
+
+Example
+
+User A places a Buy order for 100 ZRX at 0.01 ETH/ZRX. User B then places a sell order of 100 ZRX at 0.008 ETH/ZRX. A trade will now occur, because the asking sell price is lower than the asking buy price:
+
+User A will receive 100 ZRX and spend 1 ETH (0.01*100=1)
+User B will receive 0.8 ETH (0.008*100=0.8) and spend 100 ZRX
+In this example, 0.2 ETH is lost to the matching address. Even though User B could have easily selected a price of 0.01 ETH/ZRX, they signed a transaction specifying a 0.008 ETH/ZRX price, and the relayer (DDEX) cannot change this exchange rate, even to improve it! Thus, User B misses the opportunity to gain an additional 0.2 ETH.
+
+Short Term Solution
+In the example above, "User B" misses out on 0.2 ETH because of the matching mode deficiency. To remedy this, DDEX is proposing a temporary solution to periodically reimburse this extra amount to User B. 
+
+With this solution, users will initially be charged the amount that they signed for, but if a better trade was found, DDEX's automated system will check the trade history and periodically reimburse users for these extra amounts. This will work with both buy and sell limit orders.
+
+The automated system is in the last stages of testing before implementation. It should be ready within the next month (we will update this article when it is fully functioning!)
+
+Long Term Solution
+Ideally price improvement should be supported within the protocol, effectively allowing relayers to match orders at a rate equal or better than the price in the signed order. The DDEX team has discussed this issue with the 0x team and hope a solution will be implemented in the next major release.
+
+ 
+
+Thanks for using DDEX! As always, if you have any questions please feel free to reach out to our support staff (available 24 hours a day).
+
+Happy Trading,
+
+-DDEX Team

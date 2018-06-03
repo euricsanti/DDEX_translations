@@ -1,0 +1,42 @@
+#Menu-1
+1. Comunidad
+2. Enviar solicitud
+3. Entrar 
+
+#Search-bar 
+1. Buscar 
+
+#Seccion-menu 
+1. Iniciar aquí
+	Nuevo en DDEX, aprende los principios básicos de DDEX. 
+2. Anuncios 
+	Novedades y Actualizaciones 
+3. FAQ
+	Información normalmente solicitada, cuotas, WETH, habilitación y más. 
+4. Términos y Condiciones 
+	Detalles legales 
+	
+#Seccion: Promoted articles 
+**Title** Artículos promocionados 
+##Column-1 
+1. Como comprar un token en DDEX 
+2. HOT empezará a ser intercambiado en Huobi HADAX el 7 de Mayo, 2018 
+3. DDEX lanza su API Beta 
+4. Competencia de intercambios eosDAC ha terminado 
+5. Competencia ODR 
+6. Comptencia de Sharder (SS) 
+7. Pagos Hydro con MakerDAO 
+8. DDEX en Móbil | Toshi 
+9. DDEX Lista DAI y MKR 
+10.Cuotas 
+
+##Column-2 
+1. Como vender tokens en DDEX 
+2. Hola mundo | Hydro API en Github 
+3. DDEX abre su face Beta en Enero 8, 2018
+4. Intercambios OBR han concluido 
+5. Competencia ALPHA concluyó 
+6. Competencia eosDAC 
+7. DDEX se asocia con protocolo MARKET 
+8. DDEX en móvil | Trust 
+9. Habilitar envoltura

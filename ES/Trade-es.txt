@@ -1,0 +1,57 @@
+**Top** 
+1. Último precio 
+2. Precio 24h 
+3. Vol 24h 
+
+-Español 
+-Tour 
+-Ayuda 
+- Vision General 
+
+**Lefbar**
+##MERCADOS[Búsqueda] 
+-Símbolo 
+- Último precio 
+- Precio 24h 
+- Vol 24h 
+##INTERCAMBIOS  
+-Comprar 
+- Vender 
+*Precio límite 
+Mejor pedido 
+Mejor oferta 
+
+*Cantidad 
+-Total 
+-Comisión (fee) 
+
+Comprar [moneda] [Button] 
+
+#BALANCES 
+-Símbolo 
+-Balanace 
+-Disponible 
+
+Envolver/Desenvolver/Registros 
+
+**Center**
+#HISTORIAL DE PRECIOS 
+-Volumen 
+-Tablas por días 
+
+#OFERTAS ABIERTAS 
+- Par 
+- Compra/Venta 
+- Precio 
+- Cantidad 
+- Cancelar [Button] 
+
+**Right bar** 
+#LIBRO DE OFERTAS
+- Tamaño 
+- Precio 
+- Cantidad 
+- Profundidad 
+
+
+

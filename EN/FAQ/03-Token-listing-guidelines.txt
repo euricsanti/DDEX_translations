@@ -1,0 +1,36 @@
+This article details the general guidelines for DDEX's token listing process. Please read the entire guidelines thoroughly before submitting a token listing request.
+
+How to submit a token listing request on DDEX
+To submit a new token listing request, please fill out our token listing request form with all of the required fields. Note that we currently only support Ethereum-based Tokens (currently ERC-20, with additional options coming soon).
+
+Token and project guidelines
+After submitting the token listing request form, the DDEX team will perform a comprehensive review of your token, project, and team. We look for several things when evaluating whether a token is appropriate for listing:
+
+Token Code
+Token contract should be verified on etherscan.io
+Token code should be secure and able to be safely transferred using our 0x settlement layer
+Token should have a wide distribution of holders (after initial distribution)
+Basic token economics should make sense
+Project Community
+Large, enthusiastic, and engaged communities are extremely important
+There should be a fundamental desire for your community to purchase and trade your token
+Team and Advisers
+To better ensure that your project will have resilience in the long term, it is important to have team members with a history of success and experience in your business area
+A project without strong advisers can be a sign that there is a lack of professional confidence in a project's potential
+After submitting the listing request
+After you submit the listing request, there are two possibilities:
+
+Your token listing application is accepted
+Your token listing application is not accepted at this time
+1 - If your token listing application is accepted, we will contact you by the email provided in the listing request form. Typically we respond within three business days.
+
+2 - Due to the extremely high volume of token listing applications, we do not respond to every listing request. If you do not hear back from our team within a week of submission, then your project did not meet the above listing guidelines.
+
+My token submission was not accepted. Can I re-apply?
+You can definitely re-apply for a listing, but please do not spam our listing request form. Please wait a least a month between token listing request applications: if you apply again before at least a month has passed, the request will be immediately rejected.
+
+Also, please refrain from spamming our social media or team members for updates on your listing request. We can receive over 100 token listing applications per week during peak operation periods, so we simply do not have the bandwidth to field these questions on an individual basis.
+
+ 
+
+Thanks for applying to list with DDEX, we really appreciate it!

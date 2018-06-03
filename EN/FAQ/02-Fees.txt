@@ -1,0 +1,32 @@
+Last Updated: March 10, 2018
+
+Overview:
+
+The transaction fee and gas fee are based on Ether.
+
+Transaction fee percentage is 0.1%.
+There are no withdrawal fees.
+There are no transaction fees for wrapping or unwrapping ETH/WETH.
+ 
+
+Fees in your transactions:
+
+While our platform does not charge any deposit/withdrawal fees, the small fees included in your transactions are the gas fee and transaction fee. The gas fee goes to the miners, who help power the flow of transactions on the Ethereum network. 
+
+Due to fluctuating Ethereum network traffic, fees may change over time. To ensure your transactions confirm consistently and reliably, we adjust the fee appropriately based on the level of network traffic at the time. The minimum fee for each transaction will change over time as well. You can see the current estimated fee for your order in the trade area, as shown in the picture below.
+
+fees_no_highlight.png
+
+DDEX is using the Order Matching strategy of 0x. For more information please refer to this excellent article. The relevant part is that the relayer pays all gas fees (i.e., relayers (exchanges) pay the gas fee for users in advance).
+
+Originally we thought about being generous and simply subsidizing the gas fees. Unfortunately, we discovered that this would open the relayer to attack: someone with 2 addresses could make a series of small trades back and forth, and the relayer would be drained of their Ethereum through gas prices. Therefore the relayer must pass the fee to the trader (preferably the taker, to be consistent with relayers running in Quote Provider mode).
+
+The problem with the Order Matching mode is that at the time a limit order is created, the relayer does not know whether the order is going to end up being the maker or the taker, so the gas fee is currently symmetrically split between the maker and the taker.
+
+Our team has talked with the 0x team, and is optimistic that a future version of 0x will allow Order Matching relayers to distinguish between takers and makers, and provide a better mechanism for resolving the gas fee issue.
+
+We will update our fee policy frequently to ensure users have fully understood the fees in every transaction. 
+
+Sincerely,
+
+The DDEX Team

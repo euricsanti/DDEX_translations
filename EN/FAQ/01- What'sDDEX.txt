@@ -1,0 +1,17 @@
+DDEX is the most user-friendly decentralized exchange for Ethereum-based tokens. 
+
+DDEX_banner_2.png
+
+As a decentralized exchange, DDEX does not rely on third parties to hold users’ assets (unlike large, centralized exchanges). The trading on DDEX occurs directly between buyers and sellers in a peer-to-peer (P2P) network via an automated process. This way, there is no single point of failure. 
+
+On DDEX:
+
+We are designed to provide liquidity for Ethereum and ERC-20 tokens directly from users’ wallet (eg., MetaMask, Ledger).
+We utilize off-chain matching and on-chain settlement. The off-chain order book matching provides a more user-friendly experience for users to trade ERC-20 tokens on our platform.
+
+We can list popular token pairs immediately.
+We allow users to exchange ERC-20 tokens directly from wallet to wallet.
+No possibility of theft
+No uncertainty of deposit/withdrawal lockup periods
+No withdrawal fees
+We do not require users to register for a DDEX account. You can start trading right away. 

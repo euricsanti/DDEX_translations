@@ -1,0 +1,39 @@
+Última actualización: Marzo 10, 2018
+
+#Visión General:
+
+Las tarifas de transacción y gas están basadas en Ether
+
+El costo en porcentaje es 0.1%
+No existe tarifa de transacción 
+No hay tarifa por usar WETH (Envolver & Desenvolver ETH)
+
+#Tarifas en sus transacciones:
+
+En nuestra plataforma no cargamos ninguna tarifa de retiro/deposito, las pequeñas tarifas incluidas en nuestras transacciones son gas y costo por trancción. 
+La tarifa de gas a los mineros, es lo que ayuda a mantener la Red de Ethereum y el flujo de sus transacciones. 
+
+Debido a las fluctuaciones en el tráfico y red de Ethrerum, las tarifas pueden cambiar con el tiempo. Para asegurar que sus transacciones se confirmen 
+consistentemente y con mucha seguridad ajustamos las tarifas apropiadamente al nivel de tráfico de la red en el momento que usted la ejecuta. El mínimo 
+por cada transacción también cambiará con el tempo. Puede ver las tarifas estimadas de su orden en el área de intercambios, como se ve en la foto más abajo. 
+
+fees_no_highlight.png
+
+DDEX está utilizando la estrategia de combinaciones en órdenes de 0x. Para más información puede referirse a este excelente artículo (en inglés). La parte 
+relevante es que el relay paga todas las tarifas de gas (ej, los relays (cambiarios) pagan las tarifas de gas de los usuarios por adelantado). 
+
+Originalmente consideramos ser generosos y simplemente subsidiar la tarifa de gas. Desafortunadamente, descubrimos que esto podía abrir el relay (Cambiario) a 
+posibles ataques: Alguien con 2 direcciones podría hacer pequeñas cantidades de intercambios una y otra vez, y el relay podría quedarse sin Ether al pagar
+las tarifas de gas. Por tanto el relay debe pasar la tarifa al trader (preferiblemente al adquiriente, para ser consistente con el relay funcionando en Quote Provider).
+
+El problema con el combinador de órdenes es que al momento que una orden es creada, el relayer no sabe si la orden terminará siendo la ofertante o demandante, 
+entonces la tarifa de gas es simetricamente dividida entre el ofertante y demandante. 
+
+Nuestro equipo ha estado en conversaciones con el equipo de 0x, y estamos muy optimistas en que las futuras versiones del 0x permitirán que el relay de combinación 
+de órdenes pueda distinguir entre ofertante y demandante, y proveer un mecanismo más óptimo para resolver el problema de las tarifas de gas. 
+
+Frecuentemente estaremos actualizando nuestra política para asegurarnos que los usuarios comprendan completamente cuánto es la tarífca en cada transacción. 
+
+Sinceramente, 
+
+El equipo DDEX

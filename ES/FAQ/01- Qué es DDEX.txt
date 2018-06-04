@@ -1,0 +1,20 @@
+﻿DDEX es cambiario de tokens Ethereum más amigable para los usuarios.  
+
+DDEX_banner_2.png
+
+Como un cambiario descentralizado, DDEX no se apoya en terceros para sostener los bienes de nuestros usuarios (A difierencia de los cambiarios grandes y centralizados).
+Los intercambios en DDEX se ejecutan directamente entre compradores y vendedores en una red de punto a punto, vía un proceso automatizado. 
+De esta forma, no hay ningún punto de falla. 
+
+En DDEX: 
+Estamos diseñados para proveer liquidez directamente a los tokens ERC-20 de Ethereum, desde sus carteras (ej: MetaMask, Ledger).
+
+Utilizamos acuerdos de fuera de la cadena que se combinan con acuerdos de la cadena. 
+El Libro de órdenes fuera de la cadena provee una experiencia más amigable a los usuarios para hacer intercambios en nuestra plataforma de tokens ERC-20  
+
+Podemos listar tokens populares de inmediato. 
+Permitimos a los usuarios hacer intercambios ERC-20 de cartera a cartera. 
+No hay posibilidad de robo 
+No hay inseguridad en bloqueos de deposito/retiro. 
+No hay tarifa de retiro 
+No necesitamos que ningún usuario se registre para una cuenta DDEX. Puede empezar intercambios ahora mismo.  

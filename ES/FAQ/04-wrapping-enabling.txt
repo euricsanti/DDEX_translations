@@ -1,0 +1,74 @@
+This article contains information to help troubleshoot issues with wrapping eth, unwrapping weth, or enabling a token.
+
+Please note that DDEX currently works best on the Chrome web browser. If you are using an uncommon web browser, there may be some additional challenges.
+
+Wrapping or Enabling is pending forever (or fails every time)
+Occasionally, users experience an issue when trying to wrap, unwrap, or enable a token which causes the transaction to pend seemingly forever. DDEX may mark this transaction as failed, but you may still see it pending in your MetaMask. If this is happening, don't worry we have several solutions!
+
+What is happening here?
+Typically this indicates that the gas price for your transaction was set too low compared to the current Ethereum network traffic. The gas price is listed in gwei, and appropriate gas prices fluctuate depending on Ethereum network traffic. When this happens, the network prioritizes other transactions over yours. Occasionally, the low gas price transactions can be dropped by the Ethereum network and will get stuck in a long queue to be picked back up. While you wait for this, the transaction does not even appear on blockchain explorers like etherscan.io.
+
+If you tried to submit a new transaction again but with a higher gas price, it may still fail! MetaMask and other similar wallet enabled browser extensions are setup to check previous transactions before submitting this new one. So the higher gas price transaction ends up waiting on a response from the original transaction, and thus does not go through right away.
+
+What can I do to fix this?
+There are multiple solutions to this problem. A few below:
+
+1 - Resubmit the transaction within metamask
+
+The first thing to try is within MetaMask resubmitting the transaction but with a higher gas price. See the picture below:
+
+metamask_slow_ex.png
+
+Click the "Retry with a higher gas price here" for your initial transaction. This allows you to resubmit it with a new gas price. To determine which gas price to use, refer to https://ethgasstation.info/ (at the time of writing this article, the "safe price" for transactions is 12 gwei).
+
+You should not need to change the gas limit - but please make sure that it is at least 80,000.
+
+Note that resubmitting the transaction within MetaMask actually prevents DDEX from tracking the transaction. You may need to refresh the DDEX webpage after the transaction goes through.
+
+2 - For Wrapping/Unwrapping, try on a different platform
+
+While this bug is typically due to Ethereum network traffic issues and your wallet interface, not specifically the DDEX/browser interface, it's easy to confirm this by testing wrapping or unwrapping on another platform.
+
+https://www.0xproject.com/portal/weth
+
+WETH is used on multiple platforms, not just DDEX. You can always try to wrap/unwrap on a different platform (like the above) to see if you're having issues specifically connecting with the DDEX interface. If it doesn't work on other platforms, it's an indication that your transaction was probably dropped by the network and you will need to try #1 or #3.
+
+3 - Re-install MetaMask
+
+This is not the most fun solution, but it works 100% of the time for resolving this issue. Re-installing effectively clears the transactions that MetaMask is waiting on, and allows you to start the process over again.
+
+Please save and back up all of your private key information, seed phrases, etc. for your MetaMask account(s) before re-installing.
+
+After re-installing, when you try to wrap/unwrap/enable, please refer to https://ethgasstation.info/ to pick a reasonable gas price.
+
+4 - Contact the DDEX team for support!
+
+If all of the above options fail, or are not feasible for some reason, please feel free to reach out to our team and we will gladly assist you. We offer 24 hour a day support on our telegram channel and zendesk support site.
+
+My WETH or Token balance is not correct
+Understanding the balances section
+The balances section on DDEX shows two columns: Balance and Available. The "Balance" displays the total amount of a token or WETH in your address. The "Available" amount displays the total amount minus any open (unfilled) orders you currently have.
+
+Screen_Shot_2018-05-29_at_1.35.55_PM.png
+
+In the example above, the user has 4.6394 WETH total in their address. They have open buy orders for 0.504 WETH of a token, so they have 4.6394 - 0.504 = 4.1354 WETH available.
+
+The balance values still don't match!
+DDEX reads these values directly from your address' balances. So as long as you have the correct address connected to DDEX, these values should be 100% correct.
+
+Occasionally users see a different value for tokens/weth in an address on some blockchain explorers. These explorers are often slower to update the individual balances of your tokens! The best way to check your current WETH balance is as follows:
+
+- Go to the etherscan page for WETH
+
+- Enter your public wallet address under the "Filter by:" area
+
+- This page shows your current balance
+
+You can do this for ANY token!
+
+Seriously, my balances still don't match!
+One more thing to check! Are you certain that you're looking at the correct token? There are many tokens that share the same symbols, yet are completely different. For example, the Hydro Protocol token and the Holo Token share the same HOT symbol.
+
+When viewing a token, the project name will appear in the BUY/SELL button. We're adding a feature in the near future that will display the token's contract address as well.
+
+If it's still not making sense, please feel free to reach out to our team and we will gladly assist you. We offer 24 hour a day support on our telegram channel and zendesk support site.

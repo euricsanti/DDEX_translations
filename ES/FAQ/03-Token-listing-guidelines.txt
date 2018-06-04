@@ -1,44 +1,44 @@
-This article details the general guidelines for DDEX's token listing process. Please read the entire guidelines thoroughly before submitting a token listing request.
+En este artículo encontrarás las guías detalladas sobre come incluir tu token en DDEX. 
+Por favor lee completamente la guía antes de enviar tu solicitud de inclusión. 
 
-How to submit a token listing request on DDEX
-To submit a new token listing request, please fill out our token listing request form with all of the required fields. 
-Note that we currently only support Ethereum-based Tokens (currently ERC-20, with additional options coming soon).
+#Cómo hacer una solicitud de incluisión en DDEX
+Para enviar una solicitud de inclusión, por favor llene el formulario de solicitud registro de token con todos los campos requeridos. 
+Note que por el momento solo tenemos capacidad para incluir tokens basados en Ethereum (Actualmente ERC-20, con opciones adicionale por venir) 
 
-Token and project guidelines
-After submitting the token listing request form, the DDEX team will perform a comprehensive review of your token, project, and team.
- We look for several things when evaluating whether a token is appropriate for listing:
+#Tokens y guías de proyectos. 
+Luego de completar y remitir la solicitud, el equipo de DDEX realizará una revisión comprensiva del token, el proyecto y el equipo. 
+Miramos diferentes factores cuándo evaluamos un token para saber su apropiada inserción: 
+- El código 
+- El contrato debe estar verificado en EtherScan.io 
+- El código del debe debe estar asegurado y listo para ser intercambiado con seguridad utilizando la capa de 0x. 
+- El token debe tenerlo una cierta cantidad amplia de individuos. (Posterior a la distribución inicial) 
+- Sin olvidar las economías básicas de los tokens. 
+- La comunidad del proyecto, comunidades amplias, entusiastas y comprometidas son extremadamente importantes. 
+- Debe existir un deseo fundamental en tu comunidad de adquirir e intercambiar tu token. 
+ Equipo y asesoreos. 
+- La mayor seguridad que tu proyecto seguirá vivo a largo plazo, es importante tener miembros en el equipo con resultados 
+exitoso y experiencia en el área de tu negocio. 
 
-Token Code
-Token contract should be verified on etherscan.io
-Token code should be secure and able to be safely transferred using our 0x settlement layer
-Token should have a wide distribution of holders (after initial distribution)
-Basic token economics should make sense
-Project Community
-Large, enthusiastic, and engaged communities are extremely important
-There should be a fundamental desire for your community to purchase and trade your token
-Team and Advisers
-To better ensure that your project will have resilience in the long term, it is important to have team members with a history of success 
-and experience in your business area
+Un proyecto sin consejeros capaces puede ser una señal de falta de profesionalidad y confianza en el potencial del projyecto. 
+#Después de someter la solicitud 
+Despues de enviar la solicitud de enlistado, hay dos posibilidades: 
 
-A project without strong advisers can be a sign that there is a lack of professional confidence in a project's potential
-After submitting the listing request
-After you submit the listing request, there are two possibilities:
+Su solicitud para listar el token fue aprobada, 
+Su solicitud para listad el token no fue aceptada en ese momento. 
 
-Your token listing application is accepted
-Your token listing application is not accepted at this time
-1 - If your token listing application is accepted, we will contact you by the email provided in the listing request form. 
-Typically we respond within three business days.
+1- Si su solicitud fue aprobada, el equipo de DDEX se pondrá en contacto al email que fue provisto en el formulario. 
+normalmente respondemos en 3 días laborables. 
+2 - Debido al elevado volumen de solicitudes para agregar tokens, no respondemos a todas las solicitudes. SI no ha escuchado 
+de nosotros en una semana después de haber solicitado, entonces su proyecto no cumple con los requerimientos de enlistamiento. 
 
-2 - Due to the extremely high volume of token listing applications, we do not respond to every listing request. If you do not 
-hear back from our team within a week of submission, then your project did not meet the above listing guidelines.
+La solicitud de mi token no fue aceptada, ¿Puedo volver a aplicar? 
+Definitivamente puede volver a solicitar, pero por favor no nos llene la solicitud con spam. Espere al menos un mes de intermedio 
+entre solicitudes de aplicaciones: Si aplica antes de que se cumpla el mes de re-solicitud, será automáticamente rechazada. 
 
-My token submission was not accepted. Can I re-apply?
-You can definitely re-apply for a listing, but please do not spam our listing request form. Please wait a least a month between 
-token listing request applications: if you apply again before at least a month has passed, the request will be immediately rejected.
-
-Also, please refrain from spamming our social media or team members for updates on your listing request. We can receive over 100 
-token listing applications per week during peak operation periods, so we simply do not have the bandwidth to field these questions on an individual basis.
+También, abstengase de enviarnos mensajes no deseados a través de la redes sociales a nuestro equipo o requerir actualizaciones en su solicitud. 
+Recibimos más de 100 solicitudes de aplicación a la semana, en los tiempos de baja operación, simplemente no tenemos el ancho de banda 
+para responder estar preguntas en bases individuales. 
 
  
-
+Gracias por solicitar su inscripción en DDEX, ¡En verdad lo apreciamos mucho! 
 Thanks for applying to list with DDEX, we really appreciate it!
